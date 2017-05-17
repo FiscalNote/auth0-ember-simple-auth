@@ -14,7 +14,7 @@ var EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 var app = new EmberAddon();
 
 app.import(app.bowerDirectory + '/ember-simple-auth/simple-auth.js');
-app.import(app.bowerDirectory + '/auth0-lock/build/auth0-lock.js');
+app.import(app.bowerDirectory + '/auth0-lock/build/lock.js');
 app.import(app.bowerDirectory + '/jsrsasign/jsrsasign-latest-all-min.js');
 
 module.exports = app.toTree();
